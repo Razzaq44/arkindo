@@ -199,7 +199,7 @@ export default function Example() {
               <p className='mt-6 text-lg font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita quibusdam, inventore aliquam saepe nemo.</p>
               <h2 className='mt-6 font-normal text-2xl'>Vision</h2>
               <p className='mt-2 italic font-light'>
-                "Memberikan pelayanan jasa konstruksi yang memenuhi standar nasional Indonesia (SNI) serta memenuhi harapan konsumen dan pihak terkait. Meningkatkan proses bisnis melalui mekanisme dan pengembangan yang berkelanjutan Mencapai sasaran waktu dan mutu yang telah ditetapkan disetiap proses pembangunan dan melakukan evaluasi secara periodik."
+                '"Memberikan pelayanan jasa konstruksi yang memenuhi standar nasional Indonesia (SNI) serta memenuhi harapan konsumen dan pihak terkait. Meningkatkan proses bisnis melalui mekanisme dan pengembangan yang berkelanjutan Mencapai sasaran waktu dan mutu yang telah ditetapkan disetiap proses pembangunan dan melakukan evaluasi secara periodik."'
               </p>
               <h2 className='mt-6 font-normal text-2xl'>Mision</h2>
               <p className='mt-2 italic font-light'>
