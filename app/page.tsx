@@ -86,25 +86,25 @@ export default function Example() {
                   <div className="space-y-2 py-6">
 
                     <Link
-                      href="#home" onClick={handleScroll}
+                      href="#home" onClick={(e) => { e.preventDefault(); setMobileMenuOpen(false); handleScroll(e); }}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       Home
                     </Link>
                     <Link
-                      href="#about_us" onClick={handleScroll}
+                      href="#about_us" onClick={(e) => { e.preventDefault(); setMobileMenuOpen(false); handleScroll(e); }}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       About Us
                     </Link>
                     <Link
-                      href="#certificate" onClick={handleScroll}
+                      href="#certificate" onClick={(e) => { e.preventDefault(); setMobileMenuOpen(false); handleScroll(e); }}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       Certificate
                     </Link>
                     <Link
-                      href="#contact" onClick={handleScroll}
+                      href="#contact" onClick={(e) => { e.preventDefault(); setMobileMenuOpen(false); handleScroll(e); }}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       Contact
@@ -124,10 +124,10 @@ export default function Example() {
           <div className='mt-44'>
             <span className='text-5xl font-medium tracking-wider text-grey-700 align-middle'>Welcome To </span>
             <span className='text-5xl font-bold text-sky-600 tracking-wider align-middle'>Vercel</span>
-            <p className='text-1xl text-white font-light tracking-wide align-middle my-4 hidden md:block'>Build For Future</p>
+            <p className='text-1xl text-white font-light tracking-wide align-middle mb-4 mt-2 hidden md:block'>Build For Future</p>
           </div>
-          <div className='mt-2'>
-            <button className='text-1xl bg-indigo-500 rounded-full text-white px-4 py-2 hover:bg-indigo-800'> Get Started </button>
+          <div className='mt-4 lg:mt-2'>
+            <Link className='text-1xl bg-indigo-500 rounded-full text-white px-4 py-2 hover:bg-indigo-800' onClick={handleScroll} href={'#about_us'}> Get Started </Link>
           </div>
         </div>
       </div>
