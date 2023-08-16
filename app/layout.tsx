@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Arkindo',
   description: 'Build For Tomorrow',
+  icons: {
+    icon: '/icon.ico',
+  },
 }
 
 export default function RootLayout({
