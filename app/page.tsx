@@ -5,6 +5,7 @@ import { Dialog, Popover } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { usePathname } from "next/navigation"
+import Image from 'next/image'
 
 
 export default function Example() {
@@ -29,7 +30,7 @@ export default function Example() {
           <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 " aria-label="Global">
             <div className="flex lg:flex-1">
               <Link href="#home" className="-m-1.5 p-1.5 " onClick={handleScroll}>
-                <img className="h-8 w-auto" src="/logo.png" alt="" />
+                <Image className="h-8 w-auto" src="/logo.png" alt="" />
               </Link>
             </div>
             <div className="flex lg:hidden">
@@ -66,7 +67,7 @@ export default function Example() {
               <div className="flex items-center justify-between">
                 <a href="#" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
-                  <img
+                  <Image
                     className="h-8 w-auto"
                     src="/vercel.svg"
                     alt=""
@@ -119,7 +120,7 @@ export default function Example() {
       <section id='home'>
 
       </section>
-      <div className='rounded-lg bg-cover -z-1' style={{ backgroundImage: "url(" + "https://img.freepik.com/free-photo/business-office-sky-cityscape-tourism_1127-2401.jpg?t=st=1691978386~exp=1691978986~hmac=ce9bea8685c28f03129e0c610ff8e14669f3f49f427a9f3fff49a6ed447e1ece" + ")" }}>
+      <div className='rounded-lg bg-cover -z-1' style={{ backgroundImage: "url(" + "https://Image.freepik.com/free-photo/business-office-sky-cityscape-tourism_1127-2401.jpg?t=st=1691978386~exp=1691978986~hmac=ce9bea8685c28f03129e0c610ff8e14669f3f49f427a9f3fff49a6ed447e1ece" + ")" }}>
         <div className='text-center backdrop-blur-sm bg-white/10 pt-56 pb-20'>
           <div className='mt-44'>
             <span className='text-5xl font-medium tracking-wider text-grey-700 align-middle'>Welcome To </span>
@@ -136,42 +137,42 @@ export default function Example() {
           <div className='grid grid-cols-1 gap-6 xl:grid-cols-6 lg:grid-cols-3 content-center'>
             <div className='text-white h-fit rounded-lg p-8 hover:ring-2 ring-sky-200'>
               <div className=''>
-                <img src="/inovative.png" alt="" className='h-24 w-auto mx-auto' />
+                <Image src="/inovative.png" alt="" className='h-24 w-auto mx-auto' />
                 <h1 className='text-center text-black font-bold text-l mt-2'>INOVATIVE</h1>
                 <p className='text-center text-black text-sm mt-4'></p>
               </div>
             </div>
             <div className='text-white h-fit rounded-lg p-8 hover:ring-2 ring-sky-200'>
               <div className=''>
-                <img src="/creative.png" alt="" className='h-24 w-auto mx-auto' />
+                <Image src="/creative.png" alt="" className='h-24 w-auto mx-auto' />
                 <h1 className='text-center text-black font-bold text-l mt-2'>CREATIVE</h1>
                 <p className='text-center text-black text-sm mt-4'></p>
               </div>
             </div>
             <div className='text-white h-fit rounded-lg p-8 hover:ring-2 ring-sky-200'>
               <div className=''>
-                <img src="/profesional.png" alt="" className='h-24 w-auto mx-auto' />
+                <Image src="/profesional.png" alt="" className='h-24 w-auto mx-auto' />
                 <h1 className='text-center text-black font-bold text-l mt-2'>PROFESIONAL</h1>
                 <p className='text-center text-black text-sm mt-4'></p>
               </div>
             </div>
             <div className='text-white h-fit rounded-lg p-8 hover:ring-2 ring-sky-200'>
               <div className=''>
-                <img src="/reliable.png" alt="" className='h-24 w-auto mx-auto' />
+                <Image src="/reliable.png" alt="" className='h-24 w-auto mx-auto' />
                 <h1 className='text-center text-black font-bold text-l mt-2'>RELIABLE</h1>
                 <p className='text-center text-black text-sm mt-4'></p>
               </div>
             </div>
             <div className='text-white h-fit rounded-lg p-8 hover:ring-2 ring-sky-200'>
               <div className=''>
-                <img src="/integrity.png" alt="" className='h-24 w-auto mx-auto' />
+                <Image src="/integrity.png" alt="" className='h-24 w-auto mx-auto' />
                 <h1 className='text-center text-black font-bold text-l mt-2'>INTEGRITY</h1>
                 <p className='text-center text-black text-sm mt-4'></p>
               </div>
             </div>
             <div className='text-white h-fit rounded-lg p-8 hover:ring-2 ring-sky-200'>
               <div className=''>
-                <img src="/loyal.png" alt="" className='h-24 w-auto mx-auto' />
+                <Image src="/loyal.png" alt="" className='h-24 w-auto mx-auto' />
                 <h1 className='text-center text-black font-bold text-l mt-2'>LOYAL</h1>
                 <p className='text-center text-black text-sm mt-4'></p>
               </div>
@@ -186,10 +187,10 @@ export default function Example() {
           <div className='flex gap-6 mt-16 flex-wrap xl:flex-nowrap'>
             <div className='flex-grow w-full xl:flex-initial xl:w-7/12'>
               <div className=''>
-                <img src="https://img.freepik.com/free-photo/beautiful-architecture-office-business-building-with-glass-window-shape_74190-6438.jpg?w=900&t=st=1691963363~exp=1691963963~hmac=01ba2d3e22d3f2c7f6421a715bf95acd5d6fd18db7ebd8fea6b10e483d030c6d" alt="" className='rounded-lg object-contain w-full h-full mx-auto' />
+                <Image src="https://Image.freepik.com/free-photo/beautiful-architecture-office-business-building-with-glass-window-shape_74190-6438.jpg?w=900&t=st=1691963363~exp=1691963963~hmac=01ba2d3e22d3f2c7f6421a715bf95acd5d6fd18db7ebd8fea6b10e483d030c6d" alt="" className='rounded-lg object-contain w-full h-full mx-auto' />
               </div>
               <div className='hidden'>
-                <img src="https://img.freepik.com/free-photo/business-skyscraper-building-hong-kong-city_74190-4160.jpg?w=740&t=st=1691963483~exp=1691964083~hmac=ac3cf462d8f384d88decb225923e0be5d031a712f922123fb2684b5bb55f7e81" alt="" className='rounded-lg object-contain w-full h-full mx-auto' />
+                <Image src="https://Image.freepik.com/free-photo/business-skyscraper-building-hong-kong-city_74190-4160.jpg?w=740&t=st=1691963483~exp=1691964083~hmac=ac3cf462d8f384d88decb225923e0be5d031a712f922123fb2684b5bb55f7e81" alt="" className='rounded-lg object-contain w-full h-full mx-auto' />
               </div>
 
             </div>
@@ -218,9 +219,9 @@ export default function Example() {
               <p className='mt-4 font-light tracking-wide'>Dengan pengalaman yang luas dalam industri konstruksi, PT. Arkindo telah berhasil merampungkan berbagai proyek dengan menggunakan praktik terbaik yang sesuai dengan sertifikasi ISO. PT. Arkindo tidak hanya memberikan solusi konstruksi yang inovatif, tetapi juga memastikan bahwa setiap langkah dalam proses konstruksi kami sejalan dengan standar ketat ISO, menjadikan kualitas dan keamanan sebagai prioritas utama.</p>
             </div>
             <div className='grid grid-cols-3 gap-6'>
-              <img src="ISO-9001.png" alt="" className='ring-1 ring-black rounded-xl' />
-              <img src="ISO-14001.png" alt="" className='ring-1 ring-black rounded-xl' />
-              <img src="ISO-45001.png" alt="" className='ring-1 ring-black rounded-xl' />
+              <Image src="ISO-9001.png" alt="" className='ring-1 ring-black rounded-xl' />
+              <Image src="ISO-14001.png" alt="" className='ring-1 ring-black rounded-xl' />
+              <Image src="ISO-45001.png" alt="" className='ring-1 ring-black rounded-xl' />
             </div>
           </div>
         </div>
@@ -239,7 +240,7 @@ export default function Example() {
                 <p className='text-normal font-light text-gray-600 mt-2'>You can try to approach us at</p>
                 <div className='flex w-96 mt-10 gap-4 divide-x-2 divide-gray-300'>
                   <div className='min-w-fit'>
-                    <img src="/location.png" alt="" className='w-14 mx-auto' />
+                    <Image src="/location.png" alt="" className='w-14 mx-auto' />
                   </div>
                   <div className='pl-3'>
                     <h1 className='text-lg font-medium tracking-wide text-indigo-600'>Location:</h1>
@@ -248,7 +249,7 @@ export default function Example() {
                 </div>
                 <div className='flex w-96 mt-6 gap-4 divide-x-2 divide-gray-300'>
                   <div className='min-w-fit'>
-                    <img src="/email.png" alt="" className='w-14 mx-auto' />
+                    <Image src="/email.png" alt="" className='w-14 mx-auto' />
                   </div>
                   <div className='pl-3'>
                     <h1 className='text-lg font-medium tracking-wide text-indigo-600'>Contact Person:</h1>
